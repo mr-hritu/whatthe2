@@ -22,7 +22,7 @@ import os
 import sys
 from KAHABR.get_video_info import get_video_attributes, get_video_thumb
 import re
-from pyrogram import Client as bot
+from pyrogram import Client
 DEF_FORMAT = "480"
 from dotenv import load_dotenv
 load_dotenv()
