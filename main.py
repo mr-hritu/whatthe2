@@ -14,13 +14,13 @@ import asyncio
 from pyrogram.errors import FloodWait
 import time
 from pyrogram.types import User, Message
-from p_bar import progress_bar
+from KAHABR.p_bar import progress_bar
 import subprocess
 from subprocess import getstatusoutput
 import logging
 import os
 import sys
-from get_video_info import get_video_attributes, get_video_thumb
+from KAHABR.get_video_info import get_video_attributes, get_video_thumb
 import re
 from pyrogram import Client as bot
 DEF_FORMAT = "480"
