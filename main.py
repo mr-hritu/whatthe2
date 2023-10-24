@@ -14,24 +14,22 @@ import asyncio
 from pyrogram.errors import FloodWait
 import time
 from pyrogram.types import User, Message
-from KHABAR.p_bar import progress_bar
+from p_bar import progress_bar
 import subprocess
 from subprocess import getstatusoutput
 import logging
 import os
 import sys
-from KHABAR.get_video_info import get_video_attributes, get_video_thumb
+from get_video_info import get_video_attributes, get_video_thumb
 import re
-from pyrogram import Client
+from pyrogram import Client as bot
 DEF_FORMAT = "480"
-from dotenv import load_dotenv
-load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 API_ID = 23442389
 API_HASH = "70490ec8a810932cb5cb7f9d6a839ee0"
-BOT_TOKEN = "6438283180:AAEzq_fH-LN01_nJBsnDbyK6RGJL7oN66ko"
+BOT_TOKEN = "6410222431:AAHjbgit4Fi0Vc38UjIigY4r3_OrSfTjstE"
 AUTH_USERS = 5699060814
-sudo_users = [5699060814,6172397014]
+sudo_users = [5699060814]
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
